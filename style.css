@@ -1,0 +1,46 @@
+h2, p {  
+  font-family: Lato;
+}
+.transfer-demo {
+  width: 600px;
+  border: 1px solid #d9d9d9;
+  margin: 50px auto;
+  border-radius: 5px;
+}
+.transfer-demo h2 {
+  text-align: center;
+}
+.transfer-container {
+  width: 500px;
+  padding: 10px 50px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.transfer-header {
+  border-bottom: 1px solid #d9d9d9;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.source-list,
+.target-list {  
+  width: 100%;
+  height: 250px;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  overflow: auto;  
+}
+.transfer-arrows {
+  width: 50px;
+  padding: 20px;  
+}
+.transfer-arrows button {  
+  font-size: 1.2em;
+  width: 100%;
+  margin-bottom: 15px;
+}
+label {
+  display: block;
+  padding: 5px;
+}
